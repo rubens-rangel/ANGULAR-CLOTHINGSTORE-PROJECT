@@ -1,46 +1,7 @@
-.container {
-    text-align: center;
-    padding: 20px;
-  }
-
-  h1 {
-    color: #ff3366;
-    font-size: 24px;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
-  .welcome-text {
-    font-size: 19px;
-    line-height: 1.5;
-    color: #333;
-    text-align: justify;
-    margin-bottom: 20px;
-    font-family: Courier, monospace;
-  }
-  
-  h3 {
-    font-size: 18px;
-    text-align: right;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-
-  .giticon {
-    width: 12px;
-    height: 12px;
-  }
-  
-  
-  .products {
+.product-card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .product {
+    flex-direction: column;
+    align-items: center;
     width: 300px;
     margin: 20px;
     padding: 20px;
@@ -57,9 +18,13 @@
   }
   
   .product-image img {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
+  }
+  
+  .product-details {
+    text-align: center;
   }
   
   .product-name {

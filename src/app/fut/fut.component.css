@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 2px 0;
+    border: 1px solid #000;
+    font-weight: bold;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    font-family: Courier, monospace;
+  }
