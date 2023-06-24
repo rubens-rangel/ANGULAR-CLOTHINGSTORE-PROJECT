@@ -1,0 +1,18 @@
+<div class="container">
+  <h3>
+    <img src="assets/github.jpg" class="giticon" alt="...">
+    /rubens-rangel
+  </h3>
+  <app-top> [storeName]="MinhaLoja"></app-top>
+  <br>
+  <p class="welcome-text">Bem-vindo à ClothingStore, o seu destino definitivo para moda online! Somos apaixonados por trazer as últimas tendências e estilos para você, oferecendo uma experiência de compra verdadeiramente excepcional. Aqui, qualidade, estilo e conforto se unem para criar um universo de possibilidades fashion.</p>
+  <br>
+  <p class="welcome-text">Em nossa loja, você encontrará uma seleção cuidadosamente curada de roupas que abrange desde opções casuais e descontraídas até visuais elegantes e sofisticados. Nossa equipe de especialistas está sempre antenada com as últimas novidades do mundo da moda, garantindo que você esteja sempre um passo à frente no quesito estilo.</p>
+  <h1>Promoções:</h1>
+  <div class="products">
+    <app-product-card *ngFor="let item of products" [product]="item"></app-product-card>
+  </div>
+  <br>
+  <app-fut></app-fut>
+</div>
+
